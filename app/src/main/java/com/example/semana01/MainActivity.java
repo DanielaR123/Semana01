@@ -7,7 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener
+    {
 
     Button btncalcular;
 
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void Calcular() {
 
-        Toast.makeText(getApplicationContext(), "El producto es: ",Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "El producto es: ",Toast.LENGTH_LONG).show();
 
     }
     @Override
